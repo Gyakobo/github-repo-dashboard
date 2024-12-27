@@ -12,9 +12,10 @@ This project showcases a Dashboard that displays multiple repos and their number
 
 ## Methodology
 
-Before we start delving into progam let's first figure out how to run the script: [main.py]().
+Before we start delving into progam let's first figure out how to run the script: [main.py](https://github.com/Gyakobo/github-repo-dashboard/blob/main/main.py).
 
-Don't forget to also setup the [config.txt]() file.
+>[!NOTE]
+>Don't forget to also setup the [config.txt](https://github.com/Gyakobo/github-repo-dashboard/blob/main/config.txt) file.
 
 The program would further go through all of your repositories and display the following setup:
 
