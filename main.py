@@ -12,11 +12,17 @@ RESET = "\033[0m"
 
 # Read Config file
 with open('config.txt', 'r') as file:
-    lines file.readlines()
+    lines = file.readlines()
 
-# Replace these with your GitHub username and token
-GITHUB_USERNAME = ''
-TOKEN = ''
+# Parse the lines into a dictionary
+config = {}
+for line in lines:
+    key, value = line.strip().split('=', 1)
+    config[key] = value
+
+# Access the variables
+GITHUB_USERNAME = config.get('GITHUB_USERNAME')
+TOKEN = config.get('TOKEN')
 
 # Headers with authentication
 headers = {

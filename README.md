@@ -14,7 +14,7 @@ This project showcases a Dashboard that displays multiple repos and their number
 
 Before we start delving into progam let's first figure out how to run the script: [main.py]().
 
-Don't forget to also setup the [git-key.txt]() file.
+Don't forget to also setup the [config.txt]() file.
 
 The program would further go through all of your repositories and display the following setup:
 
@@ -47,5 +47,13 @@ linkedin.com         |     4 |       1
 ----------------------------------------
 ```
 
-If you happen to have no views at all, you'd be 
+If you happen to have no views at all, you'd be shown the following:
+
+```console
+Repository: anchor
+Views: 0 | Unique Views: 0
+No views
+No referrer data available for anchor.
+```
+
 
