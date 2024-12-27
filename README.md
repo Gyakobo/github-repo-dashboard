@@ -49,7 +49,7 @@ linkedin.com         |     4 |       1
 
 If you happen to have no views at all, you'd be shown the following:
 
-```console
+```shell
 Repository: anchor
 Views: 0 | Unique Views: 0
 No views
