@@ -12,12 +12,14 @@ This project showcases a Dashboard that displays multiple repos and their number
 
 ## Methodology
 
-Before we start delving into progam let's first figure out how to run the script: [main.py](https://github.com/Gyakobo/github-repo-dashboard/blob/main/main.py).
+Before we start delving into progam let's first figure out how to run the script [main.py](https://github.com/Gyakobo/github-repo-dashboard/blob/main/main.py).
 
 >[!NOTE]
 >Don't forget to also setup the [config.txt](https://github.com/Gyakobo/github-repo-dashboard/blob/main/config.txt) file with your user credentials(username and token).
 
 The program would further go through all of your repositories and display the following setup:
+
+The GitHub API only provides repository traffic data for the last 14 days in an aggregated form (total views and unique visitors), but it also includes detailed daily statistics within that 14-day window. To extract daily views, you can use the endpoint:
 
 <img src="./miscellaneous/img.png" />
 
@@ -57,4 +59,5 @@ No views
 No referrer data available for anchor.
 ```
 
-
+## License
+MIT
