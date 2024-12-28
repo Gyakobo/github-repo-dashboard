@@ -6,9 +6,6 @@
 
 Author: [Andrew Gyakobo](https://github.com/Gyakobo)
 
->[!WARNING]
->Assuming you'd like to reuse this project for your own purposes kindly add the [config.txt](https://github.com/Gyakobo/github-repo-dashboard/blob/main/config.txt) file into your `.gitignore` so that your private github key is not out there in the wild for the world to see.
-
 ## Introduction
 
 This project showcases a Dashboard that displays multiple repos and their number of views 
@@ -19,6 +16,9 @@ Before we start delving into progam let's first figure out how to run the script
 
 >[!NOTE]
 >Don't forget to also setup the [config.txt](https://github.com/Gyakobo/github-repo-dashboard/blob/main/config.txt) file with your user credentials(username and token).
+
+>[!WARNING]
+>Assuming you'd like to reuse this project for your own purposes kindly add the [config.txt](https://github.com/Gyakobo/github-repo-dashboard/blob/main/config.txt) file into your `.gitignore` so that your private github key is not out there in the wild for the world to see.
 
 The program would further go through all of your repositories and display the following setup:
 
